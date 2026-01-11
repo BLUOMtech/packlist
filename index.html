@@ -1,1 +1,44 @@
-<!-- PackList v7 index placeholder -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PackList v1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+    <h1>PackList</h1>
+    <button id="openSettings" class="icon-btn">⚙️</button>
+</header>
+
+<main id="dashboard">
+    <div id="listContainer" class="card-grid"></div>
+
+    <button id="newList" class="add-card">
+        <span>＋</span>
+        <p>Create List</p>
+    </button>
+</main>
+
+<section id="listView" class="hidden">
+    <header class="list-header">
+        <button id="backBtn" class="icon-btn">⬅️</button>
+        <h2 id="listName"></h2>
+        <button id="listMenu" class="icon-btn">⋮</button>
+    </header>
+
+    <div id="itemContainer"></div>
+
+    <button id="addItem" class="fab">＋</button>
+</section>
+
+<div id="modalContainer"></div>
+
+<script src="utils.js"></script>
+<script src="storage.js"></script>
+<script src="modal.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

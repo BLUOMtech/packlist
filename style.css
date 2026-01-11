@@ -1,1 +1,74 @@
-/* PackList v7 styles placeholder */
+body {
+    margin: 0;
+    background: #0f0f17;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background: #1a1a25;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+}
+
+.card-grid {
+    display: grid;
+    padding: 16px;
+    gap: 16px;
+}
+
+.card {
+    background: #1d1d29;
+    padding: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.add-card {
+    background: #1a2333aa;
+    border: 2px dashed #4d7fff;
+    color: #4d7fff;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fab {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #4d7fff;
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.hidden { display: none; }
+
+.item {
+    background: #1d1d29;
+    padding: 14px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.3);
+}
